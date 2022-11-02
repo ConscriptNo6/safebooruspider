@@ -1,3 +1,7 @@
+#2022.10.28.17:21
+#en_ver
+#ver 1.6
+
 import urllib
 from bs4 import BeautifulSoup
 import re
