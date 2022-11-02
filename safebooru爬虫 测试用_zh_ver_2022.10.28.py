@@ -1,7 +1,3 @@
-#导入time模块,在部分for循环中将进程挂起1not秒,减缓爬取速度
-#修复了url1_parse()中当所选的tag/作者/角色名只有一页时,匹配不到"last page"标签,会报错的bug
-#get_page函数增加了参数'retornot',即return or not,用来判断是否输出总页码
-#增加了几处换行符,将输出的段落间隔开,更输出文字更易读
 import urllib
 from bs4 import BeautifulSoup
 import re
